@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'DM Mono', monospace;
+  }
+
+  html {
+    background: url("/cv\ web\ design.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+
+  
+  .text-container {
+     /*set the maximum width of the container*/
+    margin: 0 auto;
+    font-family: 'DM Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #ff00ae;
+    position: relative;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #ff00ae; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+    text-align: center;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 0, 212); }
+  }
+
+  .text-container p {
+    white-space: normal; /*allow text to wrap to the next line*/
+ }
+    
+  .hero {
+    height: 720px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    padding: 50px;
+  }
+  
+  .menu {
+    font-family: 'DM Mono', monospace;
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    
+  }
+  
+  
+  .menu li {
+    padding: 0;
+    margin: 0 12px;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .menu li a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    color: #ff00ae;
+  }
+
+  .menu a.active {
+    color: #000000;
+  }
+
+
+
+footer {
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    font-weight: 300;
+    color: black; 
+}
+
+  .container2 {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    font-weight: 100;
+  }
